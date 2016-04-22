@@ -1,4 +1,4 @@
-# ng2-atmoshphere
+# ng2-atmosphere
 An Angular 2.0 Atmosphere service for connecting client applications to servers.
 
 ## Installation
