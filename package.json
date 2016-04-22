@@ -1,0 +1,38 @@
+{
+  "name": "ng2-atmoshphere",
+  "version": "1.0.0",
+  "description": "Angular2 Atmopshere Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "typings": "typings",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianromanko/ng2-atmoshphere.git"
+  },
+  "keywords": [
+    "Angular2",
+    "atmosphere.js"
+  ],
+  "author": "Adrian Romanko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianromanko/ng2-atmoshphere/issues"
+  },
+  "homepage": "https://github.com/adrianromanko/ng2-atmoshphere#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings":"^0.7.12"
+  }
+}

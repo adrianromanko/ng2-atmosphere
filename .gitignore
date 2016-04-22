@@ -1,0 +1,16 @@
+# Dependency directory
+/node_modules
+npm-debug.log
+
+# type script artifacts
+/typings
+.typingsrc
+
+# ignore build and dist for now
+/dist
+
+# ignore incline compiling
+index.js
+index.d.ts
+index.js.map
+/logs
