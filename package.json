@@ -1,7 +1,7 @@
 {
-  "name": "ng2-atmoshphere",
-  "version": "1.0.0",
-  "description": "Angular2 Atmopshere Client",
+  "name": "ng2-atmosphere",
+  "version": "1.0.1",
+  "description": "Angular2 Atmosphere Client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,9 +21,9 @@
   "author": "Adrian Romanko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adrianromanko/ng2-atmoshphere/issues"
+    "url": "https://github.com/adrianromanko/ng2-atmosphere/issues"
   },
-  "homepage": "https://github.com/adrianromanko/ng2-atmoshphere#readme",
+  "homepage": "https://github.com/adrianromanko/ng2-atmosphere#readme",
   "dependencies": {
     "angular2": "^2.0.0-beta.15",
     "es6-shim": "^0.35.0",
