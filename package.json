@@ -1,6 +1,6 @@
 {
   "name": "ng2-atmosphere",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular2 Atmosphere Client",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/adrianromanko/ng2-atmosphere#readme",
   "dependencies": {
     "angular2": "^2.0.0-beta.15",
+    "atmosphere.js": "^2.3.2",
     "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.2",
     "rxjs": "^5.0.0-beta.2",
@@ -33,6 +34,6 @@
   },
   "devDependencies": {
     "typescript": "^1.8.10",
-    "typings":"^0.7.12"
+    "typings": "^0.7.12"
   }
 }
