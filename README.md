@@ -17,8 +17,10 @@ import {SocketService} from 'ng2-atmosphere'
   providers: [SocketService]
 })
 export class AppComponent implements OnInit {
-
-  constructor(private _socketService: SocketService) {
+  private _socketService: SocketService;
+  
+  constructor() {
+    this.socketService = new SocketService('http://localhost:8000/events');
     _socketService.dataStream.subscribe((data) => {
         console.log(data);
     });
