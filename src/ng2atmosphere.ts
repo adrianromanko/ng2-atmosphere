@@ -1,9 +1,9 @@
-/// <reference path="../typings/main/ambient/atmosphere/index.d.ts" />
+/// <reference path="../typings/index.d.ts" />
 
 import {Injectable} from 'angular2/core';
 import * as Rx from 'rxjs';
 import * as atmosphere from 'atmosphere.js';
-import {Subject} from "rxjs/Subject";
+import {Subject} from 'rxjs/Subject';
 
 @Injectable()
 export class SocketService {
@@ -18,7 +18,7 @@ export class SocketService {
     constructor(private url: string, private config?: Atmosphere.Request) {
         this.request = config || <Atmosphere.Request>{
             url: this.url,
-            contentType: "application/json",
+            contentType: 'application/json',
             logLevel: 'debug',
             transport: 'websocket',
             fallbackTransport: 'long-polling',
