@@ -1,7 +1,7 @@
 {
   "version": false,
   "dependencies": {},
-  "ambientDependencies": {
+  "globalDependencies": {
     "atmosphere": "registry:dt/atmosphere#2.1.5+20160317120654"
   }
 }
